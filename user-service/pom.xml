@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring.work</groupId>
-	<artifactId>car-service</artifactId>
+	<artifactId>user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>car-service</name>
+	<name>user-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<xa>sds</xa>
