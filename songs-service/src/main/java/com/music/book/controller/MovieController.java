@@ -30,4 +30,12 @@ public class MovieController {
 	return new ResponseEntity<>(movieService.search(q), HttpStatus.OK);
     }
 
+    @GetMapping("/song")
+    public ResponseEntity<byte[]> song(@RequestParam String url) {
+	try {
+	    return new ResponseEntity<>(movieService.getSong(url), HttpStatus.OK);
+	} catch (Exception e) {
+	    return new ResponseEntity<>(HttpStatus.EXPECTATION_FAILED);
+	}
+    }
 }

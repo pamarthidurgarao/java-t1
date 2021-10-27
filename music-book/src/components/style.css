@@ -1,0 +1,13 @@
+.playArea {
+  position: fixed;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background: #1976d2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+audio {
+  width: 100%;
+}
